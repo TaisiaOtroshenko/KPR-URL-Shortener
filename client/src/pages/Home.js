@@ -13,7 +13,7 @@ const Home = () => {
         Приложение также подсчитывает количество посещений короткого URL и отображает его в списке сохраненных адресов.<br />
         Нажмите на <span style={{ color: '#00bbf0' }}>New</span>, чтобы создать новый короткий URL.<br />
         Нажмите на <span style={{ color: '#00bbf0' }}>List</span>, чтобы просмотреть список сохраненных URL.<br />
-        Сделано <span style={{ fontStyle: 'oblique', textDecoration: 'underline' }}>Иван Иванов</span>
+        Сделано <span style={{ fontStyle: 'oblique', textDecoration: 'underline' }}>Отрошенко Таисия</span>
       </p>
     </div>
   );
