@@ -87,7 +87,7 @@ app.post('/delete/:id', (req, res) => {
   const id = req.params.id;
   try {
     const dbData = JSON.parse(fs.readFileSync(dbFilePath, 'utf-8'));
-    const index = dbData.urls.findIndex((entry) => entry._id === id);
+    const index = dbData.urls.findIndex((entry) => entry.shortUrl === id);
 
     if (index !== -1) {
       dbData.urls.splice(index, 1);
@@ -101,7 +101,6 @@ app.post('/delete/:id', (req, res) => {
     res.status(500).json('Server error');
   }
 });
-
 
 
 

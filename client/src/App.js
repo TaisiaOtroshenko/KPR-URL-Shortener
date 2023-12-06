@@ -6,9 +6,6 @@ import NavBar from './component/NavBar'
 import Home from './pages/Home'
 import Short from './pages/Short'
 
-
-import './style.css'
-
 function App() {
   return (
     <Router>

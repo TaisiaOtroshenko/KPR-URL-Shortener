@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
-import '../style.css'
-
 const NavBar = () => {
   const [activeBar, setActiveBar] = useState('home')
 
@@ -16,9 +14,11 @@ const NavBar = () => {
   }, [activeBar]);
 
   return (
-    <>
       <header className="bg-blue-500 p-4">
-        <h1 className="text-white text-2xl font-bold">URL Shortener</h1>
+      <div className="flex flex-row">
+          <img  className="w-8 h-8 mr-2"  src="http://localhost:3000/icon.png"></img>
+          <h1 className="text-white text-2xl font-bold">URL Shortener</h1>
+        </div>
         <nav>
           <ul className="flex space-x-4 text-white mt-2">
             <li>
@@ -32,8 +32,7 @@ const NavBar = () => {
             </li>
           </ul>
         </nav>
-      </header>
-    </>  )
+      </header>)
 }
 
 export default NavBar
