@@ -140,7 +140,7 @@ const fetchUrlList = async () => {
               </td>
               <td className="py-2 px-4 border-b">
                 <button
-                  onClick={() => deleteItem(val._id)}
+                  onClick={() => deleteItem(val.shortUrl)}
                   className="bg-red-500 text-white py-1 px-2 rounded"
                 >
                   Удалить
