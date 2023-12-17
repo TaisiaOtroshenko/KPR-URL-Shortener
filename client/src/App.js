@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import Short from './pages/Short'
 import Login from './pages/Login'
 import Register from './pages/Register'
+import Footer from './pages/Footer'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
                 <div>
                 <Home/>
                 <Short/>
+                <Footer/>
                 </div>
               }/>
             

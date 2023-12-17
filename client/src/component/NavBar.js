@@ -35,7 +35,7 @@ const NavBar = () => {
             {username ? (
               // If username exists, display username and a logout link
               <>
-                <span className='text-white-300 mr-3'>{username}</span>
+                <span className='text-white-300 mr-3 font-semibold' >Пользователь: {username}</span>
                 <Link to="/login" onClick={() => {
                   axios.post('http://localhost:5000/logout', {}, {withCredentials:true})
                   setUsername('');
