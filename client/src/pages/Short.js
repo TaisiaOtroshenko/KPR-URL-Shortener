@@ -231,12 +231,12 @@ const Short = () => {
                 <time>{DateAnalysis(val.date)}</time>
               </td>
               <td className="py-6 px-4 border-b">
-                <a href={val.originalUrl} className="text-blue-500 text-xs">
+                <a href={val.originalUrl} className="text-blue-500 text-sm">
                   {val.originalUrl}
                 </a>
               </td>
               <td className="py-2 px-4 border-b ">
-                <a href={`http://localhost:5000/${val.shortUrl}`} className="text-green-500 text-xs ">
+                <a href={`http://localhost:5000/${val.shortUrl}`} className="text-green-500 text-sm">
                   {`http://localhost:5000/${val.shortUrl}`}
                 </a>
               </td>
