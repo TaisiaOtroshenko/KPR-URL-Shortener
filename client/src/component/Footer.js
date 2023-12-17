@@ -6,7 +6,7 @@ const Footer = () => {
 
 
 
-<footer className="intro bg p-4 px-6 p-6 bg-blue-100 dark:bg-blue-800">
+<footer className="intro bg p-4 px-6 p-6 bg-blue-100 dark:bg-blue-800 fixed bottom-0 w-full">
   <h2 className="text-lg font-semibold text-blue-700 dark:text-blue-300 mb-2">
     Как работает?
   </h2>
